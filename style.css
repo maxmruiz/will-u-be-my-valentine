@@ -1,0 +1,26 @@
+body {
+    background-color: #3b3b3b;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.button-row {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-row button {
+    margin: 0 10px;
+    width: 100px;
+    padding: 10px;
+}
